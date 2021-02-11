@@ -150,6 +150,7 @@ p {
     padding: 0px;
     list-style-type: none;
     display: flex;
+    padding-top: 4rem;
 }
 #about-me .aboutme-content .social-icons ul li {
     width: 30px;
@@ -446,6 +447,27 @@ p {
 }
 #contact-us .content-center form {
     flex:1;
+}
+#contact-us .row{
+    margin-left: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+#contact-us .forms-input{
+    width: 45%;
+    padding: 1em;
+    /* margin-left: 1rem; */
+}
+#contact-us .forms-input-1{
+    width: 98%;
+    padding: 1em;
+    margin-top: 1rem;
+}
+#contact-us .forms-input-12{
+    width: 96%;
+    padding: 2em;
+    margin-top: 1rem;
 }
 
 /* table section end here */
