@@ -77,11 +77,36 @@ p {
 
 /* Helper Classes end here*/
 
+/* nav bar start here */
+li {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+}
+li a:hover{
+   color: red;
+   /* border-top: 1px solid green; */
+}
+li span{
+    color: brown; 
+    font-family:sans-serif ;
+    font-size: 30px; 
+}
+li .home-atag{
+   padding-left: 9rem;
+}
+
+
+
+/* nav bar start here */
 /* Slider section start here */
 #section-slider {
     height: 100vh;
-    background-image: url(../assets/img/4.jpg);
-
+    background-image: url(../assets/img/nomi.jpg);
 }
 #section-slider .overlay {
     background-color: rgba(0, 0, 0, 0.5);
@@ -150,14 +175,14 @@ p {
     padding: 0px;
     list-style-type: none;
     display: flex;
-    padding-top: 4rem;
+    padding-top: 2rem;
 }
 #about-me .aboutme-content .social-icons ul li {
     width: 30px;
     height: 30px;
-    background-color: red;
+    background-color: #e05a5a;
     border-radius: 50%;
-    border: 1px solid red;
+    border: 1px solid #460707;
     line-height: 25px;
     text-align: center;
     margin-right: 15px;
@@ -219,8 +244,8 @@ p {
    
 }
 #our-work li a:hover{
-    color: red;
-    background-color: black;
+    color: #720b0b;
+    background-color: #a07c7cb2;
     cursor: pointer;
 }
 
@@ -471,6 +496,31 @@ p {
 }
 
 /* table section end here */
+/* our client section start here  */
+#our-client {
+    background-color: darkgray;
+}
+
+/* our client section end here  */
+/* end section start here */
+#end-section {
+    background-color: black;
+}
+#end-section  ul{
+    display: flex;
+    justify-content: center;
+    margin: inherit;
+    height: 130px;
+}
+#end-section  li a{
+    margin: 10px;
+    font-size: 1.5rem;
+    color: yellow;
+}
+#end-section  li a:hover{
+    color: green;
+}
+/* end section start here */
 @media only screen and (max-width:990px){
     #hover-box .box2{ margin: 0 0 30px; }
 }
