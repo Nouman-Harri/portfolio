@@ -175,19 +175,19 @@ li .home-atag{
     padding: 0px;
     list-style-type: none;
     display: flex;
-    padding-top: 2rem;
+    padding-top: 5rem;
+    font-size: 25px;
 }
 #about-me .aboutme-content .social-icons ul li {
     width: 30px;
     height: 30px;
-    background-color: #e05a5a;
+    background-color: #F2D7D5;
     border-radius: 50%;
     border: 1px solid #460707;
     line-height: 25px;
     text-align: center;
     margin-right: 15px;
 }
-
 /* About Section End here */
 
 #our-services {
